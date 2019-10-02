@@ -15,15 +15,11 @@
 
 */
 
-
+// Define packages used
 #include <Wire.h>
 
 #include "MLX90640_I2C_Driver.h"
 
-void MLX90640_I2CInit()
-{
-
-}
 
 //Read a number of words from startAddress. Store into Data array.
 //Returns 0 if successful, -1 if error
